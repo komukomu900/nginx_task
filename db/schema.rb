@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2021_01_25_144623) do
 
   create_table "blogs", force: :cascade do |t|
     t.string "title"
-    t.text "content"
+    t.string "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
